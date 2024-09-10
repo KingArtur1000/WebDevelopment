@@ -2,6 +2,11 @@ html {
   transition: all 1s;
 }
 
+html:hover #special-logo{
+  opacity:1;
+  margin-right: 0%;
+}
+
 
 h1 {
   color: green;
@@ -37,6 +42,7 @@ ul {
 
 #special-logo {
   display: block;
-  margin: auto;
-  animation: name duration timing-function delay iteration-count direction fill-mode;
+  opacity: 0;
+  margin-right: 30%;
+  transition: 1s;
 }
